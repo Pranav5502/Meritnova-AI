@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');:root{--ink:#12223c;--muted:#71809a;--blue:#4d5cf4;--deep:#141a4e;--mint:#c8f4df;--pale:#f6f7ff;--line:#e4e7f0}*{box-sizing:border-box}html{scroll-behavior:smooth}body{
+                                                                                                                                                                                                                                                                                                                             margin:0;
+                                                                                                                                                                                                                                                                                                                             font:15px 'DM Sans',Arial,sans-serif;
+                                                                                                                                                                                                                                                                                                                             color:var(--ink);
+                                                                                                                                                                                                                                                                                                                             background:
+                                                                                                                                                                                                                                                                                                                                 radial-gradient(ellipse at 0% 15%,
+                                                                                                                                                                                                                                                                                                                                     rgba(191,219,254,.55), transparent 38%),
+                                                                                                                                                                                                                                                                                                                                 radial-gradient(ellipse at 100% 55%,
+                                                                                                                                                                                                                                                                                                                                     rgba(221,214,254,.50), transparent 40%),
+                                                                                                                                                                                                                                                                                                                                 linear-gradient(135deg,#f8fbff 0%,#f2f5ff 55%,#faf7ff 100%);
+                                                                                                                                                                                                                                                                                                                             background-attachment:fixed;
+                                                                                                                                                                                                                                                                                                                             overflow-x:hidden;
+                                                                                                                                                                                                                                                                                                                         }.ambient{position:absolute;border-radius:50%;filter:blur(80px);opacity:.25;pointer-events:none}.ambient.one{width:330px;height:330px;background:#a5b4fc;top:120px;right:-50px}.ambient.two{width:260px;height:260px;background:#9cf3d0;top:750px;left:-80px}nav,header,main,footer{position:relative;max-width:1180px;margin:auto}nav{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 24px}.brand{font-weight:700;font-size:24px;letter-spacing:-1px;color:var(--ink)}.brand span{color:var(--blue)}.brand i{font:700 10px 'DM Sans';background:var(--ink);color:#fff;border-radius:4px;padding:3px 4px;margin-left:3px;vertical-align:middle;letter-spacing:0}.links{display:flex;gap:28px}.links a{color:var(--muted);text-decoration:none}.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}button{font:600 14px 'DM Sans';border:0;border-radius:9px;padding:12px 17px;color:#fff;background:var(--blue);cursor:pointer}#authButtons,#userMenu{display:flex;gap:9px;align-items:center}.hidden{display:none!important}#welcome{font-size:13px;font-weight:600}header{min-height:480px;border-radius:24px;background:radial-gradient(circle at 76% 18%,#5669f4 0,#29328b 38%,#151940 79%);color:#fff;padding:72px;display:flex;justify-content:space-between;overflow:hidden}.hero-copy{max-width:600px;z-index:1}.eyebrow{font-size:11px;font-weight:700;letter-spacing:1.6px;color:var(--blue);margin:0 0 13px}.hero-copy .eyebrow{color:#b4c5ff}.hero-copy h1,.section-heading h2,.match-copy h2,.how h2{font:600 49px/1.04 'Playfair Display',Georgia,serif;letter-spacing:-1.5px;margin:0}.hero-copy h1 em,.section-heading em,.match-copy em{color:#90f4c8}.hero-copy>p:not(.eyebrow){font-size:17px;line-height:1.65;max-width:560px;color:#d2d8fb}.hero-buttons{display:flex;gap:12px;margin:28px 0}.hero-buttons button{padding:14px 18px}.hero-buttons .light{color:#fff;border-color:#ffffff55}.trust{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#d2d8fb}.visual{position:relative;width:340px}.orb{width:245px;height:245px;border:1px solid #ffffff35;border-radius:50%;position:absolute;top:80px;left:45px;box-shadow:0 0 0 33px #ffffff08,0 0 0 66px #ffffff05}.float{position:absolute;z-index:1;background:#fff;color:var(--ink);border-radius:13px;padding:17px;box-shadow:0 20px 40px #0b0f3e66}.card-a{top:33px;right:0;width:193px}.card-a small{font-size:10px;color:var(--muted);font-weight:bold;letter-spacing:1px}.card-a strong{display:block;font-size:41px;margin:8px 0;color:#1b2554}.card-a strong span{font-size:18px;color:var(--blue)}.card-a p{font-size:11px;margin:7px 0 0;color:var(--muted)}.bar{height:6px;border-radius:8px;background:#e9ecf7}.bar i{display:block;width:92%;height:100%;border-radius:8px;background:#34c990}.card-b{bottom:45px;left:-20px;width:230px;display:flex;gap:10px;align-items:center}.card-b p{font-size:11px;color:var(--muted);margin:3px 0}.card-b em{margin-left:auto;color:#20b77c;font-style:normal}.avatar{display:grid;place-items:center;width:37px;height:37px;border-radius:50%;background:#dfe4ff;color:#4553ce;font-size:11px;font-weight:bold}main{padding:0 24px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0 90px}.metrics article{padding:18px 19px;border:1px solid var(--line);background:#fff;border-radius:12px}.metrics span{float:right;font-size:11px;color:#a0a9bd}.metrics b{display:block;font-size:30px;margin-top:15px}.metrics p{color:var(--muted);margin:5px 0 0}.section-heading{display:flex;align-items:end;justify-content:space-between;margin-bottom:24px}.section-heading h2,.match-copy h2,.how h2{font-size:39px}.section-heading h2 em,.match-copy h2 em{color:var(--blue)}.search{width:295px;border:1px solid var(--line);padding:10px 12px;border-radius:9px;background:#fff}.search span{font-size:20px;color:var(--muted)}.search input{border:0;outline:0;font:inherit;width:240px}.workspace{display:grid;grid-template-columns:1.55fr .65fr;gap:24px}.job-list{display:grid;gap:13px}.job{border:1px solid var(--line);border-radius:14px;padding:22px;background:#fff;transition:.2s}.job:hover{transform:translateY(-2px);box-shadow:0 12px 30px #27397110}.job-head{display:flex;justify-content:space-between}.job-head span,.job-head small{background:#eef0ff;color:#4857d6;padding:5px 9px;border-radius:5px;font-weight:600;font-size:11px}.job-head small{background:#edfbf5;color:#16845b}.job h3{font-size:20px;margin:13px 0 5px}.company{margin:0;color:var(--muted);font-weight:600}.company i{font-style:normal}.desc{line-height:1.55;color:#526179}.chips{display:flex;flex-wrap:wrap;gap:6px}.chips b{font-size:11px;background:var(--pale);padding:5px 7px;border-radius:5px;color:#64718a}.text{display:block;background:none;color:var(--blue);padding:15px 0 0}.recruiter-box{align-self:start;border-radius:14px;padding:27px;background:linear-gradient(145deg,#e3e6ff,#f4f3ff);border:1px solid #dce1ff}.recruiter-box h3{font:600 24px/1.2 'Playfair Display';margin:12px 0}.recruiter-box p:not(.eyebrow){color:#5e6a86;line-height:1.6}.mini-icon{width:35px;height:35px;display:grid;place-items:center;background:#fff;border-radius:9px;color:var(--blue)}.match-area{margin:100px -24px 0;background:var(--pale);padding:82px max(24px,calc((100vw - 1132px)/2));display:grid;grid-template-columns:1fr .85fr;gap:85px}.match-copy>p:not(.eyebrow){color:var(--muted);font-size:16px;line-height:1.65}.feature{display:flex;gap:14px;margin:20px 0}.feature>b{color:var(--blue);font-size:13px}.feature strong{font-size:15px}.feature p{color:var(--muted);margin:4px 0}.matcher-card{background:#fff;padding:24px;border:1px solid var(--line);border-radius:16px;box-shadow:0 18px 40px #1a25650c}.card-top{display:flex;justify-content:space-between;font-size:10px;font-weight:bold;letter-spacing:1px;color:#74809a}.card-top i{font-style:normal;letter-spacing:0;color:#1aab76}label{display:block;margin:15px 0;font-size:12px;font-weight:700}input,select,textarea{display:block;width:100%;margin-top:7px;padding:11px;border:1px solid var(--line);border-radius:7px;font:inherit;outline-color:var(--blue);background:#fff}textarea{min-height:104px;resize:vertical}.matcher-card button{width:100%;margin-top:5px}.result{margin-top:17px;border-radius:9px;padding:13px;background:#f5f6fb;color:var(--muted);font-size:13px;line-height:1.5}.result.ready{background:#effbf6;color:var(--ink)}.score{display:flex;align-items:baseline;gap:11px}.score b{font-size:31px;color:#159c6b}.score small{font-size:14px}.score span{font-size:11px;color:#159c6b;font-weight:bold}.insight{background:#fff;padding:9px;border-radius:6px}.how{text-align:center;padding:94px 0}.how h2{font-size:36px;max-width:600px;margin:auto}.how>div{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:45px;text-align:left}.how article b{display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:#e9ebff;color:var(--blue)}.how article h3{font-size:17px}.how article p{color:var(--muted);line-height:1.55}footer{border-top:1px solid var(--line);display:flex;justify-content:space-between;padding:28px 24px;color:var(--muted);font-size:13px}dialog{width:min(450px,calc(100% - 32px));border:0;border-radius:15px;padding:30px;box-shadow:0 25px 80px #131c4555}dialog::backdrop{background:#111a3d88;backdrop-filter:blur(3px)}dialog h2{font:600 30px 'Playfair Display';margin:0 0 7px}dialog>p:not(.eyebrow){color:var(--muted);line-height:1.5}.close{float:right;background:transparent;color:var(--ink);font-size:25px;padding:0}.link{background:none;color:var(--blue);padding:0;text-decoration:underline}.switch{text-align:center;font-size:13px}.double{display:grid;grid-template-columns:1fr 1fr;gap:10px}#authMessage{color:#c04b34;font-size:13px}@media(max-width:800px){.links{display:none}header{padding:48px 28px;min-height:400px}.hero-copy h1{font-size:40px}.visual{display:none}.metrics{grid-template-columns:1fr 1fr}.workspace,.match-area{grid-template-columns:1fr}.match-area{gap:40px}.section-heading{display:block}.search{width:100%;margin-top:20px}.how>div{grid-template-columns:1fr;gap:14px}footer{display:block}.recruiter-box{display:none}}@media(max-width:480px){nav{padding:0 15px}.brand{font-size:20px}#authButtons .ghost{display:none}main{padding:0 15px}header{border-radius:0;padding:45px 24px}.metrics{margin-bottom:55px}.match-area{margin:70px -15px 0;padding:60px 15px}.hero-buttons{flex-direction:column}}
+
+/* Recruiter application management improvements */
+.tracker-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap}.application-count{background:#eef0ff;color:#4857d6;border-radius:8px;padding:9px 12px;font-size:12px;white-space:nowrap}.empty-applications{padding:24px 10px;text-align:center;background:#f8f9ff;border:1px dashed #dce1f5;border-radius:10px;margin-top:18px}.empty-applications h4{margin:0 0 8px}.empty-applications p,.error-message{color:var(--muted);line-height:1.6}.recruiter-mode .recruiter-box{display:block}@media(max-width:800px){.recruiter-mode .recruiter-box{display:block}.tracker{padding:18px}.row{flex-wrap:wrap}.actions{display:flex;flex-wrap:wrap}}
+
+/* Advanced candidate dashboard, recruiter ATS and analytics */
+.dashboard-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0 24px}
+.dashboard-stats article{border:1px solid var(--line);border-radius:10px;padding:14px;background:linear-gradient(145deg,#fff,#f8f9ff)}
+.dashboard-stats article span{display:block;font-size:11px;color:var(--muted);line-height:1.4}
+.dashboard-stats article b{display:block;font-size:26px;margin-top:7px;color:var(--ink)}
+.subheading{margin:24px 0 8px;font-size:15px}
+.ats-tools{display:grid;grid-template-columns:1fr 210px;gap:10px;margin:22px 0 8px}
+.ats-tools input,.ats-tools select{margin:0}
+.analytics-panel{padding:18px;border:1px solid var(--line);border-radius:12px;background:#fbfcff;margin:18px 0 24px}
+.analytics-title{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:16px}
+.bar-row{display:grid;grid-template-columns:110px 1fr 25px;align-items:center;gap:10px;margin:12px 0;font-size:12px}
+.analytics-track{height:8px;background:#e9ecf7;border-radius:10px;overflow:hidden}.analytics-track i{display:block;height:100%;border-radius:10px;background:linear-gradient(90deg,#4d5cf4,#32c994)}
+.upload-match{display:grid;
+grid-template-columns :minmax(0, 1fr);
+     align-items: stretch;
+     gap: 14px;
+     width: 100%;
+ }
+
+.upload-match label {
+                  display: block;
+                  min-width: 0;
+                  width: 100%;
+              }
+              .upload-match label input[type="file"] {
+                  display: block;
+                  width: 100%;
+                  max-width: 100%;
+                  margin-top: 10px;
+                  font-size: 13px;
+              }
+
+
+
+
+.upload-match button{margin:0;white-space:nowrap}.candidate-save{display:inline-block;margin-left:8px}
+@media(max-width:700px){.dashboard-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.ats-tools{grid-template-columns:1fr}
+
+.upload-match{grid-template-columns:1fr}
+
+
+
+.upload-match button{width:100%}.bar-row{grid-template-columns:90px 1fr 22px}}
+
+/* Final upgrade: live-job discovery cards */
+.live-jobs-section{padding:54px 0 62px;max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}
+.live-heading{display:block!important;margin-bottom:24px}.live-heading h2{max-width:720px}.live-intro,.live-disclaimer{color:#73809a;line-height:1.7;max-width:780px;font-size:14px}
+.live-job-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.live-job-card{display:flex;flex-direction:column;gap:11px;min-height:185px;padding:22px;border:1px solid #e4e8f2;border-radius:16px;background:rgba(255,255,255,.92);text-decoration:none;color:#17204e;box-shadow:0 8px 26px rgba(26,38,90,.04);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.live-job-card:hover{transform:translateY(-3px);border-color:#aab5ff;box-shadow:0 14px 34px rgba(26,38,90,.09)}.live-source{font-size:10px;font-weight:800;letter-spacing:1.4px;color:#626fe0}.live-job-card b{font-size:16px;line-height:1.4}.live-job-card p{margin:0;color:#73809a;font-size:13px;line-height:1.6}.live-cta{margin-top:auto;font-size:12px;font-weight:800;color:#4c59d9}.live-disclaimer{font-size:12px;margin-top:18px}
+@media(max-width:900px){.live-job-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.live-jobs-section{padding-left:18px;padding-right:18px}.live-job-grid{grid-template-columns:1fr}.live-job-card{min-height:150px}}
+
+.footer-credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    font-size: 13px;
+    color: #718096;
+}
+
+.footer-credit a {
+    color: #4f63e8;
+    text-decoration: none;
+}
+
+.footer-credit a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ===== HireSense AI | Full-Width Space Jobs Section ===== */
+
+/* Full browser-width space background behind jobs and recruiter panel */
+.workspace {
+    background-image: url("/Images/Blue.jpg") !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+    padding: 28px max(24px, calc((100vw - 1132px) / 2));
+    box-sizing: border-box;
+    border-radius: 0;
+    align-items: stretch;
+}
+
+/* Transparent outer jobs column so the image shows around the cards */
+.workspace > div:first-child {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    min-width: 0;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/* White readable job cards */
+.workspace > div:first-child .job {
+    background: #fff !important;
+    border: 1px solid #e1e7fb;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    overflow: hidden;
+}
+
+.workspace > div:first-child .job:hover {
+    transform: translateY(-4px);
+    border-color: #a5b4fc;
+    box-shadow: 0 16px 34px rgba(79, 70, 229, 0.18);
+}
+
+.workspace > div:first-child .job .chips b,
+.workspace > div:first-child .job .tag,
+.workspace > div:first-child .job .chip {
+    display: inline-block;
+    background: #eef2ff;
+    color: #4338ca;
+    border: 1px solid #e0e7ff;
+    border-radius: 8px;
+    padding: 6px 9px;
+}
+
+.workspace > div:first-child .job-list {
+    display: grid;
+    gap: 16px;
+}
+
+/* Keep recruiter panel readable on top of the image */
+.workspace .recruiter-box {
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 18px;
+}
+
+.workspace .job button {
+    transition: all .2s ease;
+}
+
+.workspace .job button:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .workspace {
+        padding: 16px 18px;
+    }
+    .workspace > div:first-child {
+        padding: 8px;
+    }
+    .workspace > div:first-child .job {
+        padding: 17px;
+    }
+}
+
+
+
+
+/* ===== HireSense AI Full Width Background ===== */
+
+.workspace {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.65fr);
+    gap: 24px;
+
+    position: relative;
+    isolation: isolate;
+
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+
+    padding: 32px max(24px, calc((100vw - 1180px) / 2));
+    box-sizing: border-box;
+    border-radius: 0;
+
+    background-color: #07152f;
+    background-image: url("/Images/Blue.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+/* Transparent jobs container */
+.workspace > div:first-child {
+    position: relative;
+    z-index: 1;
+    min-width: 0;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* White job cards */
+.workspace .job {
+    background: #fff !important;
+    color: #12223c;
+    border: 1px solid #e1e7fb;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* White recruiter panel */
+.workspace .recruiter-box {
+    position: relative;
+    z-index: 1;
+    display: block;
+    align-self: start;
+    background: #fff !important;
+    border-radius: 18px;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+    .workspace {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 20px 16px;
+        background-position: center center !important;
+    }
+}
+
+/* Meritnova visual polish: calm, unified finish from Simple by Design to footer */
+:root { --merit-bg: #07152f; --merit-panel: #0d2143; --merit-line: rgba(148, 178, 255, .18); --merit-text: #eef4ff; --merit-muted: #aab9d5; }
+.brand { text-decoration: none; letter-spacing: -.045em; }
+.brand span { color: #36c8f4; }
+.brand i { font-style: normal; margin-left: 5px; color: #a8a9ff; font-size: .62em; vertical-align: top; }
+.how, .trusted-companies, footer { background: var(--merit-bg); color: var(--merit-text); }
+.how { position: relative; isolation: isolate; width: 100vw; box-sizing: border-box; margin-left: calc(50% - 50vw); padding: 88px max(24px, calc((100vw - 1180px)/2)) 72px; }
+.how h2, .trusted-companies h2 { color: #f4f7ff; }
+.how article { background: var(--merit-panel); border: 1px solid var(--merit-line); border-radius: 18px; padding: 24px; transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease; }
+.how article:hover { transform: translateY(-5px); border-color: rgba(75, 197, 255, .55); box-shadow: 0 16px 38px rgba(0, 0, 0, .18); }
+.how article b { background: linear-gradient(135deg,#25c7f4,#7167f7); color: #fff; }
+.how article h3 { color: #f4f7ff; }
+.how article p { color: var(--merit-muted); }
+.trusted-companies { overflow: hidden; padding: 30px 0 62px; text-align: center; border-top: 1px solid var(--merit-line); }
+.trusted-companies .eyebrow { color: #65d7ff; letter-spacing: .18em; }
+.trusted-companies h2 { font-size: clamp(24px, 3vw, 34px); margin: 10px 20px 30px; }
+.company-marquee { position: relative; overflow: hidden; width: 100%; padding: 12px 0; }
+.company-marquee:before, .company-marquee:after { content: ""; position: absolute; z-index: 2; top: 0; bottom: 0; width: 8%; pointer-events: none; }
+.company-marquee:before { left: 0; background: linear-gradient(90deg,var(--merit-bg),transparent); }
+.company-marquee:after { right: 0; background: linear-gradient(270deg,var(--merit-bg),transparent); }
+.company-track { display: flex; align-items: center; gap: 22px; width: max-content; animation: meritnova-slide-left 36s linear infinite; }
+.company-track span { min-width: 142px; padding: 17px 22px; border: 1px solid var(--merit-line); border-radius: 13px; background: linear-gradient(135deg,rgba(23,49,91,.92),rgba(12,30,62,.92)); color: #eaf2ff; font-size: 17px; font-weight: 750; letter-spacing: -.025em; white-space: nowrap; box-shadow: 0 8px 22px rgba(0,0,0,.12); }
+.company-marquee:hover .company-track { animation-play-state: paused; }
+@keyframes meritnova-slide-left { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 11px)); } }
+footer { border-top: 1px solid var(--merit-line); padding: 30px max(24px, calc((100vw - 1180px)/2)); align-items: center; gap: 18px; flex-wrap: wrap; }
+footer p { color: var(--merit-muted); }
+.footer-credit { color: var(--merit-muted); }
+.footer-credit a { color: #69d8ff; }
+@media (max-width: 800px) { .how { margin: 0 -15px; padding: 65px 24px 52px; } .trusted-companies { padding-bottom: 44px; } footer { padding: 26px 20px; } }
+@media (prefers-reduced-motion: reduce) { .company-track { animation: none; } .how article { transition: none; } }
+
+/* Final layout + color balance: full-bleed lower sections, no white side gutters */
+:root {
+  --merit-bg: #08162f;
+  --merit-panel: #10264b;
+  --merit-line: rgba(125, 170, 255, .22);
+  --merit-text: #f3f7ff;
+  --merit-muted: #b7c7e5;
+}
+body { background: #f3f6ff; overflow-x: clip; }
+.how {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  background: linear-gradient(135deg, #08162f 0%, #0b1d3b 55%, #101d48 100%);
+  padding-top: 82px;
+  padding-bottom: 76px;
+}
+.trusted-companies {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  background: linear-gradient(135deg, #0a1935 0%, #0b2141 55%, #151d49 100%);
+  padding: 42px 0 66px;
+  border-top: 1px solid rgba(125, 170, 255, .2);
+}
+.trusted-companies h2 { letter-spacing: -.035em; }
+.company-track span {
+  background: linear-gradient(135deg, rgba(31, 61, 111, .94), rgba(16, 37, 75, .96));
+  border-color: rgba(120, 170, 255, .24);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, .16);
+}
+footer {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  background: linear-gradient(120deg, #07142c, #0c2042 58%, #111b43);
+  border-top: 1px solid rgba(125, 170, 255, .22);
+  padding: 28px max(24px, calc((100vw - 1180px)/2));
+  min-height: 112px;
+  box-shadow: 0 -14px 38px rgba(8, 22, 47, .06);
+}
+footer .brand { flex-shrink: 0; }
+footer p { margin: 0; line-height: 1.6; }
+.footer-credit { display: flex; flex-direction: column; gap: 6px; text-align: right; }
+.footer-credit a { text-decoration: none; }
+.footer-credit a:hover { text-decoration: underline; }
+@media (max-width: 800px) {
+  .how { margin-left: calc(50% - 50vw); padding: 64px 22px 52px; }
+  .trusted-companies { margin-left: calc(50% - 50vw); padding: 34px 0 44px; }
+  footer { margin-left: calc(50% - 50vw); padding: 26px 22px; }
+  .footer-credit { text-align: left; }
+}
+@media (max-width: 480px) {
+  footer { gap: 14px; }
+  .company-track { gap: 12px; }
+  .company-track span { min-width: 126px; padding: 14px 16px; font-size: 15px; }
+}
+
+
+
+
+.live-job-search {
+    background-color: #F3F5FF;
+}
+
+.live-job-search .job-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E1E7F5;
+}
+
+.live-job-search h2 {
+    color: #14213D;
+}
+
+.live-job-search p {
+    color: #64748B;
+}
+
+.live-job-search a {
+    color: #4F46E5;
+}
+
+/* Live job search section */
+.live-jobs-section {
+  width: 100vw;
+  max-width: none;
+  box-sizing: border-box;
+  margin-left: calc(50% - 50vw);
+  padding: 58px max(24px, calc((100vw - 1180px) / 2)) 62px;
+  background: linear-gradient(rgba(246, 247, 255, .58), rgba(246, 247, 255, .68)), url("Images/Pink.jpg") center / cover no-repeat;
+}
+.live-jobs-section .live-heading h2 { color: #14213d; }
+.live-jobs-section .live-heading h2 em { color: #4f46e5; }
+.live-jobs-section .live-intro,
+.live-jobs-section .live-disclaimer { color: #596782; }
+.footer-credit > span { font-size: 16px; font-weight: 700; color: #dce8ff; }
+@media (max-width: 800px) {
+  .live-jobs-section { padding: 48px 22px 52px; }
+  .footer-credit > span { font-size: 15px; }
+}
+
+
+
+/* Continue the pink background through the match report */
+
+/* Remove pink background from stats */
+.metrics {
+    background: #f3f5ff !important;
+    background-image: none !important;
+}
+
+.metrics article {
+    background: #ffffff !important;
+}
+
+/* Remove pink background from Discover a role section */
+
+/* Pink background only for CANDIDATE INTELLIGENCE */
+#matcher {
+    position: relative;
+    isolation: isolate;
+    background: transparent !important;
+}
+
+#matcher::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    z-index: -1;
+    background:
+        linear-gradient(
+            rgba(255, 235, 248, 0.20),
+            rgba(255, 235, 248, 0.20)
+        ),
+        url("/Images/Pink.jpg") center / cover no-repeat;
+}
+
+/* No pink on Discover a role section */
+.match-area {
+    background: #f3f5ff !important;
+    background-image: none !important;
+}
+
+/* Keep stats cards white */
+.metrics article {
+    background: #ffffff !important;
+}
+
+
+#matcher::before {
+    content: none !important;
+    display: none !important;
+}
+
+/* Keep pink background on Live Job Search */
+.live-jobs-section {
+    background: linear-gradient(
+        rgba(246, 247, 255, .58),
+        rgba(246, 247, 255, .68)
+    ), url("Images/Pink.jpg") center / cover no-repeat !important;
+}
+
+
+    background-image:
+        linear-gradient(
+            rgba(255, 235, 248, 0.20),
+            rgba(255, 235, 248, 0.20)
+        ),
+        url("/Images/Pink.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Remove pink from stats and opportunities sections */
+.stats-section,
+.opportunities-section {
+    background-color: #F3F5FF !important;
+    background-image: none !important;
+}
+
+
+/* Remove pink image only from the metrics and role sections */
+.metrics,
+.metrics::before,
+.metrics::after {
+    background: #f3f6ff !important;
+    background-image: none !important;
+}
+
+.metrics article {
+    background: #ffffff !important;
+}
+
+/* Keep pink on LIVE JOB SEARCH and matcher */
+.live-jobs-section {
+    background:
+        linear-gradient(
+            rgba(246, 247, 255, .58),
+            rgba(246, 247, 255, .68)
+        ),
+        url("Images/Pink.jpg") center / cover no-repeat !important;
+}
+
+
+
+/* Meritnova AI – polished pink dashboard finish */
+:root{
+  --pink-50:#fff5fb;
+  --pink-100:#ffe8f5;
+  --pink-200:#ffd2eb;
+  --pink-500:#e85ab5;
+  --pink-600:#c83c9b;
+  --violet:#7654ed;
+}
+body{
+  background:
+    radial-gradient(ellipse at 8% 18%,rgba(255,190,229,.38),transparent 34%),
+    radial-gradient(ellipse at 92% 42%,rgba(210,195,255,.30),transparent 38%),
+    linear-gradient(135deg,#fff8fc 0%,#fff0f8 48%,#f7f1ff 100%);
+  background-attachment:fixed;
+}
+main{background:transparent}
+.metrics{gap:16px;margin-top:30px;margin-bottom:90px}
+.metrics article{
+  position:relative;isolation:isolate;overflow:hidden;
+  min-height:126px;padding:20px 21px;
+  border:1px solid rgba(226,151,202,.32);
+  border-radius:18px;
+  background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(255,239,249,.88));
+  box-shadow:0 8px 24px rgba(173,72,145,.07),inset 0 1px 0 rgba(255,255,255,.95);
+  transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s;
+  animation:metricRise .75s both;
+}
+.metrics article:nth-child(2){animation-delay:.08s}
+.metrics article:nth-child(3){animation-delay:.16s}
+.metrics article:nth-child(4){animation-delay:.24s}
+.metrics article::before{
+  content:"";position:absolute;z-index:-1;width:130px;height:130px;right:-48px;bottom:-70px;
+  border-radius:50%;background:radial-gradient(circle,rgba(237,91,184,.19),rgba(237,91,184,0) 70%);
+  transition:transform .45s;
+}
+.metrics article::after{
+  content:"";position:absolute;left:18px;right:18px;top:0;height:3px;border-radius:0 0 8px 8px;
+  background:linear-gradient(90deg,#f08acb,#9875f4,#f08acb);opacity:.75;
+}
+.metrics article:hover{
+  transform:translateY(-7px);
+  border-color:rgba(216,91,174,.55);
+  box-shadow:0 18px 38px rgba(173,72,145,.15),0 4px 12px rgba(118,84,237,.08);
+}
+.metrics article:hover::before{transform:scale(1.45)}
+.metrics span{color:#c06aa5;font-weight:700;letter-spacing:1px}
+.metrics b{
+  color:#25204f;font-size:32px;letter-spacing:-1px;
+  background:linear-gradient(100deg,#25204f 15%,#a33e9a 90%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.metrics p{color:#81718e;font-size:13px;font-weight:500}
+@keyframes metricRise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+/* Keep the lower page sections on the same soft pink canvas */
+section{background-color:transparent}
+@media(prefers-reduced-motion:reduce){
+  .metrics article{animation:none;transition:none}
+  .metrics article:hover{transform:none}
+}
+@media(max-width:700px){
+  .metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-bottom:55px}
+  .metrics article{padding:16px;min-height:112px}
+  .metrics b{font-size:27px}
+}
